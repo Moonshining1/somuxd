@@ -15,11 +15,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002046320443))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002128807618))
 
-OWNER_ID = int(getenv("OWNER_ID", 7520092354))
+OWNER_ID = int(getenv("OWNER_ID", 6655939309))
 
-OWNER = int(getenv("OWNER", 7520092354))
+OWNER = int(getenv("OWNER", 6655939309))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,14 +27,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/legendtosif/somuxd",
+    "https://github.com/Moonshining1/somuxd",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Incricible")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Zoyu_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PandaLovebaby")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TWC_CHATS")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
@@ -57,7 +57,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/c3e75a195cdda1380a176.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
